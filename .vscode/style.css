@@ -1,0 +1,47 @@
+/* Color scheme */
+/* https://github.com/morhetz/gruvbox */
+
+:root {
+    --dark-bg: #1f1e1e;
+    --purple: #B16286;
+    --yellow: #FABD2F;
+    --blue: #83A598;
+    --green: #87AE36;
+}
+
+body {
+    background-color: var(--dark-bg);
+}
+
+h1 {
+    padding-top: 30px;
+    color: var(--yellow);
+}
+
+h1::before {
+    content: "🗒️ "; 
+}
+
+h2 {
+    color: var(--green);
+}
+
+h2::before{
+    content: "";
+}
+
+h3{
+    color: var(--blue);
+}
+
+pre{
+    border-radius: 3px;
+}
+
+ul, li{
+    padding-left: 0px;
+}
+ul ul{
+    list-style-type: circle;
+    padding-left: 40px !important;
+}

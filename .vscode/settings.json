@@ -1,0 +1,45 @@
+{
+    "markdown.preview.fontSize": 16,
+    
+    "markdown.styles": [
+        ".vscode/style.css"
+    ],
+
+    "[markdown]": {
+        "editor.fontSize": 16,
+        "editor.lineNumbers": "off",
+        "editor.minimap.enabled": false,
+        "editor.lineHeight": 23
+    },
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "heading.1.markdown",
+                "settings": {
+                    "foreground": "#FABD2F",
+                    "fontStyle": "underline bold"
+                }
+            },
+            {
+                "scope": "heading.2.markdown",
+                "settings": {
+                    "foreground": "#389674",
+                    "fontStyle": "bold",
+                }
+            },
+            {
+                "scope": "heading.3.markdown",
+                "settings": {
+                    "foreground": "#83A598",
+                }
+            },
+            {
+                "scope": "markup.bold",
+                "settings": {
+                    "foreground": "#dd6060",
+                }
+            },
+        ]
+    }
+}
